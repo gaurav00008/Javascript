@@ -48,3 +48,11 @@
 console.log(null>0);
 console.log(null==0);
 console.log(null>=0);
+
+
+//OBJEST IN JAVASCRIPT
+const heroes = ["Superman", "Batman", "Spiderman"];
+let myObj={
+    name:"Gaurav",     
+    age:22,
+}
