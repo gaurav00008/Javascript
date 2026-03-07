@@ -45,14 +45,29 @@
 // // COMAPRISON OPERATORS
 // console.log(5 == 5);
 
-console.log(null>0);
-console.log(null==0);
-console.log(null>=0);
+// console.log(null>0);
+// console.log(null==0);
+// console.log(null>=0);
 
 
-//OBJEST IN JAVASCRIPT
-const heroes = ["Superman", "Batman", "Spiderman"];
-let myObj={
-    name:"Gaurav",     
-    age:22,
-}
+// //OBJEST IN JAVASCRIPT
+// const heroes = ["Superman", "Batman", "Spiderman"];
+// let myObj={
+//     name:"Gaurav",     
+//     age:22,
+// }
+
+
+
+//Stack Memory and Heap Memory || Primitives and Non-Primitives
+
+// Primitives are stored in Stack Memory
+// Non-Primitives are stored in Heap Memory
+
+let myYTChannel = "CodeWithGaurav" 
+
+let anothername= myYTChannel
+anothername = "CodeWithGaurav2"
+
+console.log(myYTChannel); // CodeWithGaurav
+console.log(anothername); // CodeWithGaurav2
