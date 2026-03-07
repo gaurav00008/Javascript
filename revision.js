@@ -64,10 +64,61 @@
 // Primitives are stored in Stack Memory
 // Non-Primitives are stored in Heap Memory
 
-let myYTChannel = "CodeWithGaurav" 
+// let myYTChannel = "CodeWithGaurav" 
 
-let anothername= myYTChannel
-anothername = "CodeWithGaurav2"
+// let anothername= myYTChannel
+// anothername = "CodeWithGaurav2"
 
-console.log(myYTChannel); // CodeWithGaurav
-console.log(anothername); // CodeWithGaurav2
+// console.log(myYTChannel); // CodeWithGaurav
+// console.log(anothername); // CodeWithGaurav2
+
+
+
+
+
+/*STRINGS IN JAVASCRIPT*/
+const name = "Alogmi"
+const city = "Kathmandu"
+
+// Concatenation
+// console.log(name + " " + city) /*Outdated technique*/
+
+// Template Literals
+console.log(`${name} ${city}`) /*Modern technique*/
+
+
+
+const gameName = new String("BULBASAUR_IS_A_POKEMON")  //TO DECLARE A STRING OBJECT
+console.log(gameName); 
+console.log(typeof gameName); //object
+
+
+
+console.log(gameName.length); // Length of the string
+console.log(gameName.toUpperCase()); // Convert to uppercase
+console.log(gameName.toLowerCase()); // Convert to lowercase
+
+
+console.log(gameName.charAt(2)); // Get character at index 2
+console.log(gameName.indexOf("this")); // Get index of the first occurrence of "this"
+
+
+const newString = gameName.substring(0, 3); // Get substring from index 0 to 4
+console.log(newString); // Output: "Hey "
+
+
+
+const str1= gameName.slice(-5, 4); // Get substring from index 0 to 4
+console.log(str1); // Output: "Hey"
+
+
+const trimString = "   Hello World!   "
+console.log(trimString); // Original string with whitespace
+
+console.log(trimString.trim()); // Remove whitespace from both ends
+
+const url = "https://www.codewithgaura%200.com"
+
+console.log(url.replace('%200', 'v')); // Replace %20 with space
+
+console.log(url.split('_')); // Split the string into an array using '.' as the separator
