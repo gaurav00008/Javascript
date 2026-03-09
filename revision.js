@@ -284,3 +284,29 @@
 // let s5=500
 
 // console.log(Array.of(s1,s2,s3,s4,s5)); // Use the Array.of() method to create a new array containing the values of s1, s2, s3, s4, and s5
+
+
+
+// OBJECT IN JAVASCRIPT
+
+const JsUser = {
+    name: "Algomi",
+    age: 30,
+    locatuion: "Kathmandu",
+    email: "algomi@example.com",
+    isLogged: true,
+    lastLoginDays: ["Monday", "Tuesday", "Wednesday"]
+}
+
+
+console.log(JsUser.email)
+
+
+JsUser.email = "change@email.com" // Update the email property of the JsUser object
+console.log(JsUser.email) 
+
+Object.freeze(JsUser) // Freeze the JsUser object to prevent any further modifications to its properties
+
+JsUser.email = "login@gmail.com"
+
+console.log(JsUser.email)
