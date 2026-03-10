@@ -289,24 +289,65 @@
 
 // OBJECT IN JAVASCRIPT
 
-const JsUser = {
-    name: "Algomi",
-    age: 30,
-    locatuion: "Kathmandu",
-    email: "algomi@example.com",
-    isLogged: true,
-    lastLoginDays: ["Monday", "Tuesday", "Wednesday"]
+// const JsUser = {
+//     name: "Algomi",
+//     age: 30,
+//     locatuion: "Kathmandu",
+//     email: "algomi@example.com",
+//     isLogged: true,
+//     lastLoginDays: ["Monday", "Tuesday", "Wednesday"]
+// }
+
+
+// console.log(JsUser.email)
+
+
+// JsUser.email = "change@email.com" // Update the email property of the JsUser object
+// console.log(JsUser.email) 
+
+// Object.freeze(JsUser) // Freeze the JsUser object to prevent any further modifications to its properties
+
+// JsUser.email = "login@gmail.com"
+
+// console.log(JsUser.email)
+
+
+
+// ANOTHER EXAMPLES OF OBJECT
+
+// let person = {
+//     name: "Gaurav",
+//     age: 20,
+//     country: "Nepal"
+// };
+// console.log(person.name);
+// console.log(person.age);
+// console.log(person.country);
+
+
+const tinderUser = {}
+
+tinderUser.id = "12345"
+tinderUser.nae = "Prakash"
+tinderUser.isLoggedIn = true
+
+// console.log(tinderUser)
+
+const regularUser = {
+    email: "regular@gmail.com",
+    fullname: {
+        userfullname: {
+            firstname: "Gaurav",
+            lastname: "Paneru"
+        }
+    }
 }
 
 
-console.log(JsUser.email)
+// console.log(regularUser.fullname.userfullname.lastname);
 
+const obj1 = {1: "one", 2: "two"}
+const obj2 = {3: "three", 4: "four"}
 
-JsUser.email = "change@email.com" // Update the email property of the JsUser object
-console.log(JsUser.email) 
-
-Object.freeze(JsUser) // Freeze the JsUser object to prevent any further modifications to its properties
-
-JsUser.email = "login@gmail.com"
-
-console.log(JsUser.email)
+const obj3 = Object.assign({}, obj1, obj2)
+console.log(obj3);
