@@ -325,29 +325,44 @@
 // console.log(person.country);
 
 
-const tinderUser = {}
+// const tinderUser = {}
 
-tinderUser.id = "12345"
-tinderUser.nae = "Prakash"
-tinderUser.isLoggedIn = true
+// tinderUser.id = "12345"
+// tinderUser.nae = "Prakash"
+// tinderUser.isLoggedIn = true
 
 // console.log(tinderUser)
 
-const regularUser = {
-    email: "regular@gmail.com",
-    fullname: {
-        userfullname: {
-            firstname: "Gaurav",
-            lastname: "Paneru"
-        }
-    }
+// const regularUser = {
+//     email: "regular@gmail.com",
+//     fullname: {
+//         userfullname: {
+//             firstname: "Gaurav",
+//             lastname: "Paneru"
+//         }
+//     }
+// }
+
+
+// // console.log(regularUser.fullname.userfullname.lastname);
+
+// const obj1 = {1: "one", 2: "two"}
+// const obj2 = {3: "three", 4: "four"}
+
+// const obj3 = Object.assign({}, obj1, obj2)
+// console.log(obj3);
+
+
+/*OBJECT DESTRUCTURING IN JAVASCRIPT*/
+
+const course = {
+    coursename: "JavaScript",
+    price: 999,
+    courseInstructor: "Code aur Chai"
 }
 
+// course.courseInstructor
 
-// console.log(regularUser.fullname.userfullname.lastname);
+const{courseInstructor} = course
 
-const obj1 = {1: "one", 2: "two"}
-const obj2 = {3: "three", 4: "four"}
-
-const obj3 = Object.assign({}, obj1, obj2)
-console.log(obj3);
+console.log(courseInstructor);
