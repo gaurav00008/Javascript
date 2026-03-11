@@ -486,11 +486,24 @@
 // Sum(298, 726);
 
 
-function addTwoNumbers(num1, num2){
+/*function addTwoNumbers(num1, num2){
     let result = num1 + num2
     return result
 }
 
 
 const result = addTwoNumbers(100, 200)
-console.log("The result is:",result);
+// console.log("The result is:",result);
+
+
+function loginUserMessage(username){
+  
+    if(username === undefined){
+        console.log("Please enter a username");
+        return
+    }
+
+    return `Hey,  ${username} just logged in`
+}
+
+console.log(loginUserMessage()); */
