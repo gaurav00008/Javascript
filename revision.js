@@ -507,3 +507,36 @@ function loginUserMessage(username){
 }
 
 console.log(loginUserMessage()); */
+
+
+
+/*FUNCTIONS PART 2*/
+
+/*function addToCart(num1){
+    return num1
+}
+
+
+console.log(addToCart(4)) */
+
+
+/* REST OPERATOR IN JAVASCRIPT*/
+
+// function calculateCartPrice(...num1){
+//     return num1
+// }
+
+
+// console.log(calculateCartPrice(100, 200, 300, 400, 500))
+
+const user = {
+    namae: "Gaurav",
+    age: 22,
+    city: "Delhi"
+}
+
+function handleObject(anyobject){
+    console.log(`The name of the user is ${anyobject.namae}, age is ${anyobject.age} and city is ${anyobject.city}`);
+}
+
+handleObject(user)
