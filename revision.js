@@ -576,20 +576,29 @@ console.log(addToCart(4)) */
 
 
  
-function one() {
-    const username = "Gaurav"
+// function one() {
+//     const username = "Gaurav"
 
 
-    function two() {
-        const website = "youtube"
-        console.log(username);
-    }
+//     function two() {
+//         const website = "youtube"
+//         console.log(username);
+//     }
 
-    // console.log(website);
+//     // console.log(website);
     
-    two()
+//     two()
 
 
-}
+// }
 
-one()
+// one()
+
+
+
+// function addone(num){
+//     return num + 1
+// }
+
+
+// console.log(addone(10));
