@@ -529,25 +529,50 @@ console.log(addToCart(4)) */
 
 // console.log(calculateCartPrice(100, 200, 300, 400, 500))
 
-const user = {
-    namae: "Gaurav",
-    age: 22,
-    city: "Delhi"
+// const user = {
+//     namae: "Gaurav",
+//     age: 22,
+//     city: "Delhi"
+// }
+
+// function handleObject(anyobject){
+//     console.log(`The name of the user is ${anyobject.namae}, age is ${anyobject.age} and city is ${anyobject.city}`);
+// }
+
+// handleObject(user)
+
+
+// //PASSING ARRAY AS AN ARGUMENT IN FUNCTION
+
+// const newArr = [1,2,3,4,5]
+
+// function returnSecondValue(getArray){
+//     return getArray[3]
+// }
+
+// console.log(returnSecondValue(newArr));
+
+
+
+
+
+
+// SCOPES
+
+let a = 300
+
+if (true){
+    let a = 10
+    const b = 20
+    var c = 30
+    console.log(a); // Output: 10 (block scope)
 }
 
-function handleObject(anyobject){
-    console.log(`The name of the user is ${anyobject.namae}, age is ${anyobject.age} and city is ${anyobject.city}`);
-}
-
-handleObject(user)
 
 
-//PASSING ARRAY AS AN ARGUMENT IN FUNCTION
+console.log(a); // Output: 300 (global scope)
+// console.log(b);
+// console.log(c);
 
-const newArr = [1,2,3,4,5]
 
-function returnSecondValue(getArray){
-    return getArray[3]
-}
-
-console.log(returnSecondValue(newArr));
+ 
