@@ -540,3 +540,14 @@ function handleObject(anyobject){
 }
 
 handleObject(user)
+
+
+//PASSING ARRAY AS AN ARGUMENT IN FUNCTION
+
+const newArr = [1,2,3,4,5]
+
+function returnSecondValue(getArray){
+    return getArray[3]
+}
+
+console.log(returnSecondValue(newArr));
