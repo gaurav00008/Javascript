@@ -559,20 +559,37 @@ console.log(addToCart(4)) */
 
 // SCOPES
 
-let a = 300
+// let a = 300
 
-if (true){
-    let a = 10
-    const b = 20
-    var c = 30
-    console.log(a); // Output: 10 (block scope)
-}
+// if (true){
+//     let a = 10
+//     const b = 20
+//     var c = 30
+//     console.log(a); // Output: 10 (block scope)
+// }
 
 
 
-console.log(a); // Output: 300 (global scope)
+// console.log(a); // Output: 300 (global scope)
 // console.log(b);
 // console.log(c);
 
 
  
+function one() {
+    const username = "Gaurav"
+
+
+    function two() {
+        const website = "youtube"
+        console.log(username);
+    }
+
+    // console.log(website);
+    
+    two()
+
+
+}
+
+one()
