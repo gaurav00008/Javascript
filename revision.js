@@ -1,3 +1,11 @@
+// const chalk = require('chalk');
+
+// console.log(chalk.red("Error message"));
+// console.log(chalk.green("Success message"));
+// console.log(chalk.yellow("Warning"));
+
+
+
 // // // // // // // // // // const varId=7
 
 // // // // // // // // // // accountEmail = "gaurav12@gmail.com"
@@ -602,3 +610,38 @@ console.log(addToCart(4)) */
 
 
 // console.log(addone(10));
+
+
+
+
+
+/**ARROW FUNCTIONS IN JAVASCRIPT**/
+
+// const user = {
+//     username: "Gaurav",
+//     price: 1028,
+//     welcomeMessage: function(){
+//         console.log(`${this.username}, Welcome to our website`);
+//         console.log(this);
+        
+//     }
+
+// }
+
+
+// user.welcomeMessage()
+
+// user.username = "Sammy"
+// user.welcomeMessage() 
+
+
+// console.log(this); // In the global scope, 'this' refers to the global object (window in browsers)
+
+
+
+// function chai() {
+//     let usnername = "gaurav"
+//     console.log(this.username);
+// }
+
+// chai();
