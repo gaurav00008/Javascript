@@ -645,3 +645,31 @@ console.log(addToCart(4)) */
 // }
 
 // chai();
+
+
+
+//DECLARING A ARROW FUNCTION
+// const chai = () => {
+//     let username = "gaurav"
+//     console.log(this.username);
+// }
+
+
+// chai()
+
+
+
+/*BASIC ARROW FUNCTION SYNTAX*/
+
+// const addTwo = (num1, num2) => {
+//     return num1 + num2
+// }
+
+
+
+// const addTwo = (num1, num2) => num1 + num2
+
+
+const addTwo = (num1, num2) => (num1 + num2)  //We dont need to write return statement if we have only one line of code in the function body
+
+console.log(addTwo(100, 20));
