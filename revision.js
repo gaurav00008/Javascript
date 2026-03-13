@@ -670,6 +670,23 @@ console.log(addToCart(4)) */
 // const addTwo = (num1, num2) => num1 + num2
 
 
-const addTwo = (num1, num2) => (num1 + num2)  //We dont need to write return statement if we have only one line of code in the function body
+// const addTwo = (num1, num2) => (num1 + num2)  //We dont need to write return statement if we have only one line of code in the function body
 
-console.log(addTwo(100, 20));
+// console.log(addTwo(100, 20));
+
+
+
+
+
+/**Immediately Invoked Function Expression (IIFE)**/
+
+
+//NAMED IFFE
+(function chai() {
+    console.log("DB is connected");
+})();
+
+//UNNAMED IFFE
+((name ) => {
+    console.log(`DB is connected using arrow function  ${name}`);
+})("Algomi")
