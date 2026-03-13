@@ -681,15 +681,15 @@ console.log(addToCart(4)) */
 /**Immediately Invoked Function Expression (IIFE)**/
 
 
-// //NAMED IFFE
-// (function chai() {
-//     console.log("DB is connected");
-// })();
+//NAMED IFFE
+(function chai() {
+    console.log("DB is connected");
+})();
 
-// //UNNAMED IFFE
-// ((name ) => {
-//     console.log(`DB is connected using arrow function  ${name}`);
-// })("Algomi")
+//UNNAMED IFFE
+((name ) => {
+    console.log(`DB is connected using arrow function  ${name}`);
+})("Algomi")
 
 
 
