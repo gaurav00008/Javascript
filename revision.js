@@ -747,3 +747,12 @@ console.log(addToCart(4)) */
 
 
 
+//Shorthand notation for if
+
+
+// const balance =299; 
+
+// if (balance > 200) console.log("You can buy the product");
+
+
+
