@@ -883,5 +883,16 @@ if (Object.keys(emptyObj).length === 0) {
 // console.log(val1);
 
 
-val1 = undefined ?? 14
-console.log(val1);
+// val1 = undefined ?? 14
+// console.log(val1);
+
+
+
+
+/*TERNARY OPERATOR*/
+
+// condition ? true : false
+
+const iceTeaPrice =100
+
+iceTeaPrice <= 80 ? console.log("Less than 80") : console.log("more than 80")
