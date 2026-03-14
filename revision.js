@@ -682,23 +682,68 @@ console.log(addToCart(4)) */
 
 
 //NAMED IFFE
-(function chai() {
-    console.log("DB is connected");
-})();
+// (function chai() {
+//     console.log("DB is connected");
+// })();
 
 //UNNAMED IFFE
-((name ) => {
-    console.log(`DB is connected using arrow function  ${name}`);
-})("Algomi")
+// ((name ) => {
+//     console.log(`DB is connected using arrow function  ${name}`);
+// })("Algomi")
 
 
 
-/**JAVASCRIPT EXECUTION CONTEXT /**/
+
+
+
 
 
 
 /*Control Flow in JavaScript*/
 
+/*IF STATEMENT*/
 
- 
+
+// const isUserLoggedIn = true
+
+// if(isUserLoggedIn) {
+//  //Code to be executed if the condition is true
+
+
+// }
+
+
+// if(false) {
+//     //Code to be executed if the condition is false
+// }
+
+
+// if( 2 === "2") {
+//     console.log("Executed");
+// }
+
+
+
+// const temp = 20
+
+// if (temp >  25) {
+//     console.log("It's a hot day");
+// }
+
+// else {
+//     console.log("Temperature is greater than 25");
+// }
+
+
+
+// const score = 200
+
+// if(score >= 100) {
+//     const power = "fly"
+//     console.log(`You have the power to ${power}`);
+// }
+
+// console.log(`You have the power to ${power}`);  // The scope of the power variable ends within the loop
+
+
 
