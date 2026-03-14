@@ -801,28 +801,57 @@ console.log(addToCart(4)) */
 
 /*SWITCH STATEMENT IN JAVASCRIPT*/
 
- const month = 3
+//  const month = 3
 
- switch (month)
-  {
-    case 1:
-        console.log("January");
-        break;
+//  switch (month)
+//   {
+//     case 1:
+//         console.log("January");
+//         break;
 
-    case 2:
-        console.log("February");
-        break;  
+//     case 2:
+//         console.log("February");
+//         break;  
     
-    case 3:
-        console.log("March");
-        break;
+//     case 3:
+//         console.log("March");
+//         break;
     
-    case 4:
-        console.log("April");
-        break;
+//     case 4:
+//         console.log("April");
+//         break;
 
-    default:
-        console.log("Invalid month");
-        break;
- }
+//     default:
+//         console.log("Invalid month");
+//         break;
+//  }
 
+
+
+
+/*TRUTHY AND FALSY VALUES IN JAVASCRIPT*/
+
+//The Truthy values are:-    [], true, "0, 'false", " ", [], {}, function() {}
+
+
+//The Falsy values are:-    False, 0, -0, BigInt(0n), "", null, undefined, NaN
+
+
+const userEmail = "h@user.mail"
+
+if (userEmail) {
+    console.log("You have a valid email address");
+} else{
+    console.log("Please provide a valid email address");
+}
+
+
+
+const emptyObj = {}
+
+
+/*To CHECK IF AN OBJECT IS EMPTY OR NOT*/
+ 
+if (Object.keys(emptyObj).length === 0) {
+    console.log("The object is empty");
+}
