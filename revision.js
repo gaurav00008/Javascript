@@ -782,17 +782,47 @@ console.log(addToCart(4)) */
 
 /*REAL LIFE EXAMPLE OF IF STATEMENT*/
 
-const userLoggedIn = true;
-const debitCard = true;
-const loggedinFromGoogle = false;
-const loggedinFromEmail = true;
+// const userLoggedIn = true;
+// const debitCard = true;
+// const loggedinFromGoogle = false;
+// const loggedinFromEmail = true;
 
 
-if (userLoggedIn && debitCard) {
-    console.log("You can make a purchase");
-}
+// if (userLoggedIn && debitCard) {
+//     console.log("You can make a purchase");
+// }
 
 
-if (loggedinFromGoogle || loggedinFromEmail) {
-    console.log("You can log in");
-}
+// if (loggedinFromGoogle || loggedinFromEmail) {
+//     console.log("You can log in");
+// }
+
+
+
+/*SWITCH STATEMENT IN JAVASCRIPT*/
+
+ const month = 3
+
+ switch (month)
+  {
+    case 1:
+        console.log("January");
+        break;
+
+    case 2:
+        console.log("February");
+        break;  
+    
+    case 3:
+        console.log("March");
+        break;
+    
+    case 4:
+        console.log("April");
+        break;
+
+    default:
+        console.log("Invalid month");
+        break;
+ }
+
