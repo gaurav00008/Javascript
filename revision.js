@@ -837,7 +837,7 @@ console.log(addToCart(4)) */
 //The Falsy values are:-    False, 0, -0, BigInt(0n), "", null, undefined, NaN
 
 
-const userEmail = "h@user.mail"
+/*const userEmail = "h@user.mail"
 
 if (userEmail) {
     console.log("You have a valid email address");
@@ -847,11 +847,28 @@ if (userEmail) {
 
 
 
-const emptyObj = {}
+ */
+
 
 
 /*To CHECK IF AN OBJECT IS EMPTY OR NOT*/
- 
+
+/*
+const emptyObj = {}
+
 if (Object.keys(emptyObj).length === 0) {
     console.log("The object is empty");
-}
+}*/
+
+
+
+
+
+//NULLISH COALESCING OPERATOR (??): NULL, UNDEFINED
+
+/*EXAMPLE !*/
+
+let val1;
+val1 = 5 ?? 10
+
+console.log(val1);
