@@ -782,3 +782,17 @@ console.log(addToCart(4)) */
 
 /*REAL LIFE EXAMPLE OF IF STATEMENT*/
 
+const userLoggedIn = true;
+const debitCard = true;
+const loggedinFromGoogle = false;
+const loggedinFromEmail = true;
+
+
+if (userLoggedIn && debitCard) {
+    console.log("You can make a purchase");
+}
+
+
+if (loggedinFromGoogle || loggedinFromEmail) {
+    console.log("You can log in");
+}
