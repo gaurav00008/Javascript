@@ -866,9 +866,22 @@ if (Object.keys(emptyObj).length === 0) {
 
 //NULLISH COALESCING OPERATOR (??): NULL, UNDEFINED
 
-/*EXAMPLE !*/
+/*EXAMPLE 1*/
 
-let val1;
-val1 = 5 ?? 10
+// let val1;
+// val1 = 5 ?? 10
 
+// console.log(val1);
+
+
+
+
+/*EXAMPLE 2*/
+
+// val1 =null ??10
+
+// console.log(val1);
+
+
+val1 = undefined ?? 14
 console.log(val1);
