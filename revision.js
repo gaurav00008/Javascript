@@ -992,11 +992,23 @@ if (Object.keys(emptyObj).length === 0) {
 
 /*To find the Sum of Numbers in an Array*/
 
-let numbers = [10, 20, 30, 40, 50];
-let sum = 0;
+// let numbers = [10, 20, 30, 40, 50];
+// let sum = 0;
 
-for (let i = 0; i < numbers.length; i++) {
-    sum = sum + numbers[i];
+// for (let i = 0; i < numbers.length; i++) {
+//     sum = sum + numbers[i];
+// }
+
+// console.log("Total Sum:", sum);
+
+
+
+
+
+/* To Print Even Numbers from 1–20*/
+
+for (let i = 1; i <= 20; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
 }
-
-console.log("Total Sum:", sum);
