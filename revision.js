@@ -974,13 +974,29 @@ if (Object.keys(emptyObj).length === 0) {
 // }
 
 
-for (let index = 1; index <=20; index++) 
-{
-    if(index == 5)
-    {
-        console.log(`The number 5 is detected`);
-        continue
-    }
-    console.log(`Value of i is ${index}`)
+// for (let index = 1; index <=20; index++) 
+// {
+//     if(index == 5)
+//     {
+//         console.log(`The number 5 is detected`);
+//         continue
+//     }
+//     console.log(`Value of i is ${index}`)
     
+// }
+
+
+
+
+
+
+/*To find the Sum of Numbers in an Array*/
+
+let numbers = [10, 20, 30, 40, 50];
+let sum = 0;
+
+for (let i = 0; i < numbers.length; i++) {
+    sum = sum + numbers[i];
 }
+
+console.log("Total Sum:", sum);
