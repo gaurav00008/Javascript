@@ -1007,8 +1007,23 @@ if (Object.keys(emptyObj).length === 0) {
 
 /* To Print Even Numbers from 1–20*/
 
-for (let i = 1; i <= 20; i++) {
-    if (i % 2 === 0) {
-        console.log(i);
-    }
+// for (let i = 1; i <= 20; i++) {
+//     if (i % 2 === 0) {
+//         console.log(i);
+//     }
+// }
+
+
+
+
+
+
+/*Reverse a String Using for Loop*/
+let str = "REVERSE";
+let reversed = "";
+
+for (let i = str.length - 1; i >= 0; i--) {
+    reversed += str[i];
 }
+
+console.log(reversed);
