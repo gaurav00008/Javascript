@@ -1019,11 +1019,28 @@ if (Object.keys(emptyObj).length === 0) {
 
 
 /*Reverse a String Using for Loop*/
-let str = "REVERSE";
-let reversed = "";
 
-for (let i = str.length - 1; i >= 0; i--) {
-    reversed += str[i];
+// let str = "REVERSE";
+// let reversed = "";
+
+// for (let i = str.length - 1; i >= 0; i--) {
+//     reversed += str[i];
+// }
+
+// console.log(reversed);
+
+
+
+
+/*Find the Largest Number in an Array*/
+
+let numbers = [5, 12, 8, 20, 3];
+let largest = numbers[0];
+
+for (let i = 1; i < numbers.length; i++) {
+    if (numbers[i] > largest) {
+        largest = numbers[i];
+    }
 }
 
-console.log(reversed);
+console.log("Largest number:", largest);
