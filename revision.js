@@ -893,6 +893,25 @@ if (Object.keys(emptyObj).length === 0) {
 
 // condition ? true : false
 
-const iceTeaPrice =100
+// const iceTeaPrice =100
 
-iceTeaPrice <= 80 ? console.log("Less than 80") : console.log("more than 80")
+// iceTeaPrice <= 80 ? console.log("Less than 80") : console.log("more than 80")
+
+
+
+
+
+
+/*FOR LOOPS */
+
+
+//SYNTAX
+// for (let index = 0; index < array.length; index++) {
+//     const element = array[index];
+    
+// }
+
+for (let i = 0;i < 10; i++) {
+    const element = i;
+    console.log(element);  
+}
