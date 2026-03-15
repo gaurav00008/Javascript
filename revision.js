@@ -911,6 +911,9 @@ if (Object.keys(emptyObj).length === 0) {
     
 // }
 
+
+/*EXAMPLE 1*/
+
 // for (let i = 0;i < 10; i++) 
 //     {
 //     const element = i;
@@ -924,13 +927,35 @@ if (Object.keys(emptyObj).length === 0) {
 
 
 
-/*TO Print Table from 0 to 10*/
 
-for (let i = 0; i < 10; i++) {
-    console.log(`Outer Loop Value: ${i}`);
+/*EXAMPLE 2*/
 
-    for (let j = 0; j <= 10; j++) {
-        console.log(`${i} * ${j} = ${i * j}`);
-        //console.log(`Inner Loop Value: ${j} and inner loop value ${i}`);
-    }
-}
+/*********  TO PRINT TABLE FROM 0 to 10  ************/
+
+// for (let i = 0; i < 10; i++) {
+//     console.log(`Outer Loop Value: ${i}`);
+
+//     for (let j = 1; j <= 10; j++) {
+//         console.log(`${i} * ${j} = ${i * j}`);
+//         //console.log(`Inner Loop Value: ${j} and inner loop value ${i}`);
+//     }
+// }
+
+
+
+
+/*EXAMPLE 3*/
+
+// let myArray = ["flash", "batman", "superman"]
+
+// console.log(myArray.length);
+
+// for (let index = 0; index < myArray.length; index++) {
+//     const element = myArray[index];
+//     console.log(element);
+// }
+
+
+
+
+
