@@ -974,63 +974,69 @@ if (Object.keys(emptyObj).length === 0) {
 // }
 
 
-// for (let index = 1; index <=20; index++) 
-// {
-//     if(index == 5)
-//     {
-//         console.log(`The number 5 is detected`);
-//         continue
-//     }
-//     console.log(`Value of i is ${index}`)
+for (let index = 1; index <=20; index++) 
+{
+    if(index == 5)
+    {
+        console.log(`The number 5 is detected`);
+        continue
+    }
+    console.log(`Value of i is ${index}`)
     
-// }
+}
 
 
 
+/* FOR LOOP EXAMPLES */
 
-
+//EXAMPLE NO 1
 
 /*To find the Sum of Numbers in an Array*/
 
-// let numbers = [10, 20, 30, 40, 50];
-// let sum = 0;
+let numbers = [10, 20, 30, 40, 50];
+let sum = 0;
 
-// for (let i = 0; i < numbers.length; i++) {
-//     sum = sum + numbers[i];
-// }
+for (let i = 0; i < numbers.length; i++) {
+    sum = sum + numbers[i];
+}
 
-// console.log("Total Sum:", sum);
-
-
+console.log("Total Sum:", sum);
 
 
+
+
+//EXAMPLE NO 2
 
 /* To Print Even Numbers from 1–20*/
 
-// for (let i = 1; i <= 20; i++) {
-//     if (i % 2 === 0) {
-//         console.log(i);
-//     }
-// }
+for (let i = 1; i <= 20; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+}
 
 
 
 
 
+//EXAMPLE NO 3
 
 /*Reverse a String Using for Loop*/
 
-// let str = "REVERSE";
-// let reversed = "";
+let str = "REVERSE";
+let reversed = "";
 
-// for (let i = str.length - 1; i >= 0; i--) {
-//     reversed += str[i];
-// }
+for (let i = str.length - 1; i >= 0; i--) {
+    reversed += str[i];
+}
 
-// console.log(reversed);
+console.log(reversed);
 
 
 
+
+
+//EXAMPLE NO 4
 
 /*Find the Largest Number in an Array*/
 
