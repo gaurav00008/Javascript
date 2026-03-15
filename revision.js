@@ -911,7 +911,26 @@ if (Object.keys(emptyObj).length === 0) {
     
 // }
 
-for (let i = 0;i < 10; i++) {
-    const element = i;
-    console.log(element);  
+// for (let i = 0;i < 10; i++) 
+//     {
+//     const element = i;
+//     if(element == 5)
+//     {
+//         console.log("5 is the best number out there")
+//     }
+//     console.log(element);  
+// }
+
+
+
+
+/*TO Print Table from 0 to 10*/
+
+for (let i = 0; i < 10; i++) {
+    console.log(`Outer Loop Value: ${i}`);
+
+    for (let j = 0; j <= 10; j++) {
+        console.log(`${i} * ${j} = ${i * j}`);
+        //console.log(`Inner Loop Value: ${j} and inner loop value ${i}`);
+    }
 }
