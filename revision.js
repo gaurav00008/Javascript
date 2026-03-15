@@ -959,3 +959,28 @@ if (Object.keys(emptyObj).length === 0) {
 
 
 
+/*BREAK AND CONTINUE*/
+
+
+// for (let index = 1; index <=20; index++) 
+// {
+//     if(index == 5)
+//     {
+//         console.log(`The number 5 is detected`);
+//         break;
+//     }
+//     console.log(`Value of i is ${index}`)
+    
+// }
+
+
+for (let index = 1; index <=20; index++) 
+{
+    if(index == 5)
+    {
+        console.log(`The number 5 is detected`);
+        continue
+    }
+    console.log(`Value of i is ${index}`)
+    
+}
