@@ -1074,12 +1074,28 @@ if (Object.keys(emptyObj).length === 0) {
 //EXAMPLE 6
 /*Create a star pyramid. */
 
-for (let i = 1; i <= 5; i++) {
-    let stars = "";
+// for (let i = 1; i <= 5; i++) {
+//     let stars = "";
 
-    for (let j = 1; j <= i; j++) {
-        stars += "* ";
+//     for (let j = 1; j <= i; j++) {
+//         stars += "* ";
+//     }
+
+//     console.log(stars);
+// }
+
+
+
+//EXAMPLE 7
+/*To Count Vowels in a String*/
+
+let text = "javascript is awesome";
+let count = 0;
+
+for (let i = 0; i < text.length; i++) {
+    if ("aeiou".includes(text[i])) {
+        count++;
     }
-
-    console.log(stars);
 }
+
+console.log("Vowels:", count);
