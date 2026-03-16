@@ -1089,13 +1089,31 @@ if (Object.keys(emptyObj).length === 0) {
 //EXAMPLE 7
 /*To Count Vowels in a String*/
 
-let text = "javascript is awesome";
-let count = 0;
+// let text = "javascript is awesome";
+// let count = 0;
 
-for (let i = 0; i < text.length; i++) {
-    if ("aeiou".includes(text[i])) {
-        count++;
-    }
+// for (let i = 0; i < text.length; i++) {
+//     if ("aeiou".includes(text[i])) {
+//         count++;
+//     }
+// }
+
+// console.log("Vowels:", count);
+
+
+
+
+
+//EXAMPLE 8
+
+/*Random Password Generator*/
+
+let chars = "abcdefghijklmnopqrstuvwxyz1234567890";
+let password = "";
+
+for (let i = 0; i < 8; i++) {
+    let randomIndex = Math.floor(Math.random() * chars.length);
+    password += chars[randomIndex];
 }
 
-console.log("Vowels:", count);
+console.log(password);
