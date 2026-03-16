@@ -1008,19 +1008,35 @@ if (Object.keys(emptyObj).length === 0) {
 
 /*STOPPING INFINITE LOOP */
 
-let i = 1;
+// let i = 1;
 
-while (true) {
+// while (true) {
 
-    console.log(i);
+//     console.log(i);
 
-    if (i === 5) {
-        break;
+//     if (i === 5) {
+//         break;
+//     }
+
+//     i++;
+// }
+
+
+
+
+/*NESTED LOOP EXAMPLE*/
+
+for (let i = 1; i <= 3; i++) {
+
+    for (let j = 1; j <= 3; j++) {
+
+        if (j === 2) {
+            break;
+        }
+
+        console.log(`i=${i}, j=${j}`);
     }
-
-    i++;
 }
-
 
 
 
