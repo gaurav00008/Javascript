@@ -993,14 +993,14 @@ for (let index = 1; index <=20; index++)
 
 /*To find the Sum of Numbers in an Array*/
 
-let numbers = [10, 20, 30, 40, 50];
-let sum = 0;
+// let numbers = [10, 20, 30, 40, 50];
+// let sum = 0;
 
-for (let i = 0; i < numbers.length; i++) {
-    sum = sum + numbers[i];
-}
+// for (let i = 0; i < numbers.length; i++) {
+//     sum = sum + numbers[i];
+// }
 
-console.log("Total Sum:", sum);
+// console.log("Total Sum:", sum);
 
 
 
@@ -1009,11 +1009,11 @@ console.log("Total Sum:", sum);
 
 /* To Print Even Numbers from 1–20*/
 
-for (let i = 1; i <= 20; i++) {
-    if (i % 2 === 0) {
-        console.log(i);
-    }
-}
+// for (let i = 1; i <= 20; i++) {
+//     if (i % 2 === 0) {
+//         console.log(i);
+//     }
+// }
 
 
 
@@ -1023,14 +1023,14 @@ for (let i = 1; i <= 20; i++) {
 
 /*Reverse a String Using for Loop*/
 
-let str = "REVERSE";
-let reversed = "";
+// let str = "REVERSE";
+// let reversed = "";
 
-for (let i = str.length - 1; i >= 0; i--) {
-    reversed += str[i];
-}
+// for (let i = str.length - 1; i >= 0; i--) {
+//     reversed += str[i];
+// }
 
-console.log(reversed);
+// console.log(reversed);
 
 
 
@@ -1040,13 +1040,28 @@ console.log(reversed);
 
 /*Find the Largest Number in an Array*/
 
-let numbers = [5, 12, 8, 20, 3];
-let largest = numbers[0];
+// let number = [5, 12, 8, 20, 3];
+// let largest = numbers[0];
 
-for (let i = 1; i < numbers.length; i++) {
-    if (numbers[i] > largest) {
-        largest = numbers[i];
-    }
+// for (let i = 1; i < numbers.length; i++) {
+//     if (numbers[i] > largest) {
+//         largest = numbers[i];
+//     }
+// }
+
+// console.log("Largest number:", largest);
+
+
+
+
+
+
+//EXAMPLE 5
+
+/*To Print a multiplication table.*/
+
+let num = 5;
+
+for (let i = 1; i <= 10; i++) {
+    console.log(`${num} x ${i} = ${num * i}`);
 }
-
-console.log("Largest number:", largest);
