@@ -990,16 +990,35 @@ if (Object.keys(emptyObj).length === 0) {
 
 /*SKIPPING BAD DATA USING BREAK AND CONTINUE */
 
-let scores = [45, 78, -1, 90, 66];
+// let scores = [45, 78, -1, 90, 66];
 
-for (let i = 0; i < scores.length; i++) {
+// for (let i = 0; i < scores.length; i++) {
 
-    if (scores[i] < 0) {
-        console.log("Invalid score skipped");
-        continue;
+//     if (scores[i] < 0) {
+//         console.log("Invalid score skipped");
+//         continue;
+//     }
+
+//     console.log("Valid score:", scores[i]);
+// }
+
+
+
+
+
+/*STOPPING INFINITE LOOP */
+
+let i = 1;
+
+while (true) {
+
+    console.log(i);
+
+    if (i === 5) {
+        break;
     }
 
-    console.log("Valid score:", scores[i]);
+    i++;
 }
 
 
