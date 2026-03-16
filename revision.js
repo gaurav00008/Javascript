@@ -974,16 +974,16 @@ if (Object.keys(emptyObj).length === 0) {
 // }
 
 
-for (let index = 1; index <=20; index++) 
-{
-    if(index == 5)
-    {
-        console.log(`The number 5 is detected`);
-        continue
-    }
-    console.log(`Value of i is ${index}`)
+// for (let index = 1; index <=20; index++) 
+// {
+//     if(index == 5)
+//     {
+//         console.log(`The number 5 is detected`);
+//         continue
+//     }
+//     console.log(`Value of i is ${index}`)
     
-}
+// }
 
 
 
@@ -1060,8 +1060,26 @@ for (let index = 1; index <=20; index++)
 
 /*To Print a multiplication table.*/
 
-let num = 5;
+// let num = 5;
 
-for (let i = 1; i <= 10; i++) {
-    console.log(`${num} x ${i} = ${num * i}`);
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`${num} x ${i} = ${num * i}`);
+// }
+
+
+
+
+
+
+//EXAMPLE 6
+/*Create a star pyramid. */
+
+for (let i = 1; i <= 5; i++) {
+    let stars = "";
+
+    for (let j = 1; j <= i; j++) {
+        stars += "* ";
+    }
+
+    console.log(stars);
 }
