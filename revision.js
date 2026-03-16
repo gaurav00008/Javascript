@@ -987,6 +987,26 @@ if (Object.keys(emptyObj).length === 0) {
 
 
 
+
+/*SKIPPING BAD DATA USING BREAK AND CONTINUE */
+
+let scores = [45, 78, -1, 90, 66];
+
+for (let i = 0; i < scores.length; i++) {
+
+    if (scores[i] < 0) {
+        console.log("Invalid score skipped");
+        continue;
+    }
+
+    console.log("Valid score:", scores[i]);
+}
+
+
+
+
+
+
 /* FOR LOOP EXAMPLES */
 
 //EXAMPLE NO 1
@@ -1108,12 +1128,12 @@ if (Object.keys(emptyObj).length === 0) {
 
 /*Random Password Generator*/
 
-let chars = "abcdefghijklmnopqrstuvwxyz1234567890";
-let password = "";
+// let chars = "abcdefghijklmnopqrstuvwxyz1234567890";
+// let password = "";
 
-for (let i = 0; i < 8; i++) {
-    let randomIndex = Math.floor(Math.random() * chars.length);
-    password += chars[randomIndex];
-}
+// for (let i = 0; i < 8; i++) {
+//     let randomIndex = Math.floor(Math.random() * chars.length);
+//     password += chars[randomIndex];
+// }
 
-console.log(password);
+// console.log(password);
