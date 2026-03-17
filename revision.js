@@ -1334,3 +1334,20 @@ if (Object.keys(emptyObj).length === 0) {
 //     // console.log(key)
 //      console.log(programming[key])
 // }
+
+
+
+
+
+
+
+
+/****** FOR EACH LOOP *********/
+
+
+const coding = ["js", "ruby", "java", "python", "cpp"]
+
+
+// coding.forEach( function (val){
+//     console.log(val);
+// })
