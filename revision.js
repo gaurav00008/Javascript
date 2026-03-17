@@ -1248,7 +1248,7 @@ if (Object.keys(emptyObj).length === 0) {
 
 /* for of loop */
 
-const arr = [1, 2, 3, 4, 5]
+// const arr = [1, 2, 3, 4, 5]
 
 
 //SYNTAX
@@ -1267,7 +1267,45 @@ const arr = [1, 2, 3, 4, 5]
 
 /*EXAMPLE 2 */
 
-const greetings = "hello world"
-for (const greet of greetings) {
-    console.log(`Each char in ${greet}`)
-}
+// const greetings = "hello world"
+// for (const greet of greetings) {
+//     console.log(`Each char in ${greet}`)
+// }
+
+
+
+
+
+
+
+/*   MAPS IN JAVASCRIPT   */
+
+const map = new Map()
+
+map.set('IN', "India")
+map.set('NP', "Nepal")
+map.set('USA', "United Statest of America")
+
+
+// console.log(map);
+
+
+// for (const [key, value] of map) {
+//     console.log(key, ': ', value);
+// }
+
+
+
+/* Error: myObject is not iterable */ 
+
+// const myObject = {
+//     'game 1': 'Valorant',
+//     'game 2': 'GTA V',
+//     'game 3': 'RDR 2'
+// }
+
+
+// for (const [key, value] of myObject) {
+//     console.log(key, ': ', value);
+// }
+
