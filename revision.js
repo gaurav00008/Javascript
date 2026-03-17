@@ -1351,3 +1351,11 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 // coding.forEach( function (val){
 //     console.log(val);
 // })
+
+
+
+//FOR EACH LOOP USING ARROW FUNCTION
+
+// coding.forEach( (val)=> {
+//     console.log(val);
+// } )
