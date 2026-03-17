@@ -1359,3 +1359,30 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 // coding.forEach( (val)=> {
 //     console.log(val);
 // } )
+
+
+
+/*OBJECTS INSIDE AN ARRAY */
+
+const myCoding = [
+    {
+        languageName: "javascript",
+        langaugeFileName: "js"
+    },
+
+    {
+        languageName: "java",
+        langaugeFileName: "java"
+    },
+
+    {
+        languageName: "python",
+        langaugeFileName: "py"
+    },
+]
+
+
+
+myCoding.forEach( (val) => {
+    console.log(val.languageName)
+})
