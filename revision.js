@@ -1393,7 +1393,18 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 /*FILTER IN JS*/
 
-const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-const newNums = myNums.filter( (num) => num > 4)
-console.log(newNums)
+// const newNums = myNums.filter( (num) => num > 4)
+// console.log(newNums)
+
+
+
+
+//TO FILTER EVEN NUMBERS FROM A SET OF ARRAY
+
+const nums = [1, 2, 3, 4, 5, 6 ,7 ,8, 9, 10, 11, 12, 13, 14, 15, 16,17, 18, 19, 20]
+
+const evenNums = nums.filter((nums) => nums%2 === 0);
+
+console.log(evenNums);
