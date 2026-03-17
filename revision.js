@@ -1310,15 +1310,27 @@ if (Object.keys(emptyObj).length === 0) {
 
 /* FOR IN LOOP EXAMPLE*/
 
-const myObject = {
-    js: 'Javascript',
-    cpp: 'C++',
-    rb: "ruby",
-    swift: "swift by apple"
-}
+// const myObject = {
+//     js: 'Javascript',
+//     cpp: 'C++',
+//     rb: "ruby",
+//     swift: "swift by apple"
+// }
 
 
-for (const key in myObject) {
-    console.log(`${key} is the shortcut for ${myObject[key]}`);
+// for (const key in myObject) {
+//     console.log(`${key} is the shortcut for ${myObject[key]}`);
 
-}
+// }
+
+
+
+/*EXAMPLE 2*/
+
+// const programming = ["js", "rb", "py", "java", "cpp"]
+
+// for (const key in programming) {
+    
+//     // console.log(key)
+//      console.log(programming[key])
+// }
