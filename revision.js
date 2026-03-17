@@ -1280,13 +1280,13 @@ if (Object.keys(emptyObj).length === 0) {
 
 /*   MAPS IN JAVASCRIPT   */
 
-const map = new Map();
+// const map = new Map();
 
-map.set('IN', "India");
-map.set('NP', "Nepal");
-map.set('USA', "United States of America");
+// map.set('IN', "India");
+// map.set('NP', "Nepal");
+// map.set('USA', "United States of America");
 
-console.log(map);
+// console.log(map);
 
 // for (const [key, value] of map) {
 //     console.log(key, ': ', value);
@@ -1307,3 +1307,18 @@ console.log(map);
 //     console.log(key, ': ', value);
 // }
 
+
+/* FOR IN LOOP EXAMPLE*/
+
+const myObject = {
+    js: 'Javascript',
+    cpp: 'C++',
+    rb: "ruby",
+    swift: "swift by apple"
+}
+
+
+for (const key in myObject) {
+    console.log(`${key} is the shortcut for ${myObject[key]}`);
+
+}
