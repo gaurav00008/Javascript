@@ -1364,25 +1364,36 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 /*OBJECTS INSIDE AN ARRAY */
 
-const myCoding = [
-    {
-        languageName: "javascript",
-        langaugeFileName: "js"
-    },
+// const myCoding = [
+//     {
+//         languageName: "javascript",
+//         langaugeFileName: "js"
+//     },
 
-    {
-        languageName: "java",
-        langaugeFileName: "java"
-    },
+//     {
+//         languageName: "java",
+//         langaugeFileName: "java"
+//     },
 
-    {
-        languageName: "python",
-        langaugeFileName: "py"
-    },
-]
+//     {
+//         languageName: "python",
+//         langaugeFileName: "py"
+//     },
+// ]
 
 
 
-myCoding.forEach( (val) => {
-    console.log(val.languageName)
-})
+// myCoding.forEach( (val) => {
+//     console.log(val.languageName)
+// })
+
+
+
+
+
+/*FILTER IN JS*/
+
+const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+const newNums = myNums.filter( (num) => num > 4)
+console.log(newNums)
