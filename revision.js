@@ -1234,9 +1234,32 @@ if (Object.keys(emptyObj).length === 0) {
 //EXAMPLE 1
 
 
-let score = 11
+// let score = 11
 
-do{
-    console.log(`The player score is ${score}`)
-    score++
-} while (score <=10);
+// do{
+//     console.log(`The player score is ${score}`)
+//     score++
+// } while (score <=10);
+
+
+
+
+
+
+/* for of loop */
+
+const arr = [1, 2, 3, 4, 5]
+
+
+//SYNTAX
+
+// for (const element of object) {
+    
+// }
+
+/*EXAMPLE 1 */
+
+
+for (const num of arr) {
+    console.log(num);
+}
