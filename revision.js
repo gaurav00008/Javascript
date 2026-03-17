@@ -1192,6 +1192,9 @@ if (Object.keys(emptyObj).length === 0) {
 // }
 
 
+
+/*EXAMPLE 1*/
+
 // let i = 0
 // while(i<=10) {
 //     console.log(`Value of index is ${i}`);
@@ -1199,11 +1202,41 @@ if (Object.keys(emptyObj).length === 0) {
 // }
 
 
-let myArray = ['Apple', 'Banana', 'Mango', 'Litchi']
 
-let arr = 0
 
-while (arr < myArray.length) {
-    console.log(`The value of array is: ${myArray[arr]}`);
-    arr = arr + 1
-}
+
+
+/*EXAMPLE 2*/
+
+// let myArray = ['Apple', 'Banana', 'Mango', 'Litchi']
+
+// let arr = 0
+
+// while (arr < myArray.length) {
+//     console.log(`The value of array is: ${myArray[arr]}`);
+//     arr = arr + 1
+// }
+
+
+
+
+/* do while loop*/
+
+
+
+
+//SYNTAX
+
+// do{
+
+// } while (condition);
+
+//EXAMPLE 1
+
+
+let score = 11
+
+do{
+    console.log(`The player score is ${score}`)
+    score++
+} while (score <=10);
