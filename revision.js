@@ -1026,17 +1026,19 @@ if (Object.keys(emptyObj).length === 0) {
 
 /*NESTED LOOP EXAMPLE*/
 
-for (let i = 1; i <= 3; i++) {
+// for (let i = 1; i <= 3; i++) {
 
-    for (let j = 1; j <= 3; j++) {
+//     for (let j = 1; j <= 3; j++) {
 
-        if (j === 2) {
-            break;
-        }
+//         if (j === 2) {
+//             break;
+//         }
 
-        console.log(`i=${i}, j=${j}`);
-    }
-}
+//         console.log(`i=${i}, j=${j}`);
+//     }
+// }
+
+
 
 
 
@@ -1172,3 +1174,36 @@ for (let i = 1; i <= 3; i++) {
 // }
 
 // console.log(password);
+
+
+
+
+
+
+/*WHILE LOOP*/
+
+
+
+//SYNTAX
+
+// let i =0
+// while(condition) {
+//    increment/ decremnet
+// }
+
+
+// let i = 0
+// while(i<=10) {
+//     console.log(`Value of index is ${i}`);
+//     i = i + 2
+// }
+
+
+let myArray = ['Apple', 'Banana', 'Mango', 'Litchi']
+
+let arr = 0
+
+while (arr < myArray.length) {
+    console.log(`The value of array is: ${myArray[arr]}`);
+    arr = arr + 1
+}
