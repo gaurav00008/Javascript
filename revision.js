@@ -1260,6 +1260,14 @@ const arr = [1, 2, 3, 4, 5]
 /*EXAMPLE 1 */
 
 
-for (const num of arr) {
-    console.log(num);
+// for (const num of arr) {
+//     console.log(num);
+// }
+
+
+/*EXAMPLE 2 */
+
+const greetings = "hello world"
+for (const greet of greetings) {
+    console.log(`Each char in ${greet}`)
 }
