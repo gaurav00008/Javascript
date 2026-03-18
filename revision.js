@@ -1403,8 +1403,19 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 //TO FILTER EVEN NUMBERS FROM A SET OF ARRAY
 
-const nums = [1, 2, 3, 4, 5, 6 ,7 ,8, 9, 10, 11, 12, 13, 14, 15, 16,17, 18, 19, 20]
+// const nums = [1, 2, 3, 4, 5, 6 ,7 ,8, 9, 10, 11, 12, 13, 14, 15, 16,17, 18, 19, 20]
 
-const evenNums = nums.filter((nums) => nums%2 === 0);
+// const evenNums = nums.filter((nums) => nums%2 === 0);
 
-console.log(evenNums);
+// console.log(evenNums);
+
+
+
+
+
+//TO FILTER NUMBERS GREATER THAN 10
+
+const nums = [5, 12, 8, 20, 3, 4 ,5, 10, 29, 4 , 1];
+const result = nums.filter(num => num > 10);
+
+console.log(result); // [12, 20]
