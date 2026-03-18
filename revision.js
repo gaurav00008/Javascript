@@ -1400,6 +1400,7 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 
 
+/*** EXAMPLE NO 1 ***/
 
 //TO FILTER EVEN NUMBERS FROM A SET OF ARRAY
 
@@ -1412,22 +1413,57 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 
 
+/*** EXAMPLE NO 2 ***/
 
 //TO FILTER NUMBERS GREATER THAN 10
 
-const nums = [5, 12, 8, 20, 3, 4 ,5, 10, 29, 4 , 1];
-const result = nums.filter(num => num > 10);
+// const nums = [5, 12, 8, 20, 3, 4 ,5, 10, 29, 4 , 1];
+// const result = nums.filter(num => num > 10);
 
-console.log(result); // [12, 20]
+// console.log(result); // [12, 20]
 
 
 
+
+
+/*** EXAMPLE NO 3 ***/
 
 /*Filter Strings by Length */
 
-const words = ["cat", "elephant", "dog", "tiger"];
-const longWords = words.filter(word => word.length > 4);
+// const words = ["cat", "elephant", "dog", "tiger"];
+// const longWords = words.filter(word => word.length > 4);
 
-console.log(longWords); // ["elephant", "tiger"]
+// console.log(longWords); // ["elephant", "tiger"]
 
 
+
+
+
+
+
+/*** EXAMPLE NO 4 ***/
+
+/*Filter Objects (Real-World Example)*/
+
+const users = [
+
+  { 
+    name: "Anish",
+     age: 20 
+    },
+
+  { 
+    name: "Ram", 
+    age: 17 
+    },
+    
+  { 
+    name: "Sita", 
+    age: 22 
+    }
+
+];
+
+const adults = users.filter(user => user.age >= 18);
+
+console.log(adults);
