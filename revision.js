@@ -1493,3 +1493,24 @@ const result = numbers
 
 console.log(result);
 // Output: [4, 8]
+
+
+/*FLTER CONDINTIN ON PRICE*/
+
+const prodcuts = [
+    {name: "Laptop", price: 199999},
+    {name: "Mouse", price: 2000},
+    {name: "Phone", price: 80000}
+
+];
+
+const expensive = prodcuts.filter(item => item.price > 10000)
+
+console.log(expensive);
+
+
+
+
+
+
+
