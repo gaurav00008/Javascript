@@ -1419,3 +1419,15 @@ const nums = [5, 12, 8, 20, 3, 4 ,5, 10, 29, 4 , 1];
 const result = nums.filter(num => num > 10);
 
 console.log(result); // [12, 20]
+
+
+
+
+/*Filter Strings by Length */
+
+const words = ["cat", "elephant", "dog", "tiger"];
+const longWords = words.filter(word => word.length > 4);
+
+console.log(longWords); // ["elephant", "tiger"]
+
+
