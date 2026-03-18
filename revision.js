@@ -1475,7 +1475,21 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 /*** EXAMPLE NO 5 ***/
 
 /*Remove Falsy Values*/
-const values = [0, "hello", false, "", 42, null];
-const truthyValues = values.filter(Boolean);
+// const values = [0, "hello", false, "", 42, null];
+// const truthyValues = values.filter(Boolean);
 
-console.log(truthyValues); // ["hello", 42]
+// console.log(truthyValues); // ["hello", 42]
+
+
+
+
+/***EXAMPLE NO 6 ***/
+
+const numbers = [1, 2, 3, 4, 5];
+
+const result = numbers
+  .filter(num => num % 2 === 0)
+  .map(num => num * 2);
+
+console.log(result);
+// Output: [4, 8]
