@@ -1445,25 +1445,37 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 /*Filter Objects (Real-World Example)*/
 
-const users = [
+// const users = [
 
-  { 
-    name: "Anish",
-     age: 20 
-    },
+//   { 
+//     name: "Anish",
+//      age: 20 
+//     },
 
-  { 
-    name: "Ram", 
-    age: 17 
-    },
-    
-  { 
-    name: "Sita", 
-    age: 22 
-    }
+//   { 
+//     name: "Ram", 
+//     age: 17 
+//     },
 
-];
+//   { 
+//     name: "Sita", 
+//     age: 22 
+//     }
 
-const adults = users.filter(user => user.age >= 18);
+// ];
 
-console.log(adults);
+// const adults = users.filter(user => user.age >= 18);
+
+// console.log(adults);
+
+
+
+
+
+/*** EXAMPLE NO 5 ***/
+
+/*Remove Falsy Values*/
+const values = [0, "hello", false, "", 42, null];
+const truthyValues = values.filter(Boolean);
+
+console.log(truthyValues); // ["hello", 42]
