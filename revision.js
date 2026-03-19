@@ -1606,5 +1606,13 @@ const books = [
     { title: 'Eight', genre: '', publish: 2011 , edition: 1989},
 ];
 
-const userBooks = books.filter((bk) => bk.genre === 'History');
+let userBooks = books.filter((bk) => bk.genre === 'History');
+
+
+ userBooks = books.filter((bk)=> { return bk.publish >= 2000})
+
+
 console.log(userBooks);
+
+
+// console.log(publishDate);
