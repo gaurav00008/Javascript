@@ -1579,14 +1579,33 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 //FILTERING USING FOR EACH LOOP
 
-const myNums = [1,2,3,4,5,6,7,8,9,10]
+// const myNums = [1,2,3,4,5,6,7,8,9,10]
 
 
-const newNums = []
-myNums.forEach( (num) => {
-    if (num > 4) {
-        newNums.push(num)
-    }
-} )
+// const newNums = []
+// myNums.forEach( (num) => {
+//     if (num > 4) {
+//         newNums.push(num)
+//     }
+// } )
 
-console.log(newNums);
+// console.log(newNums);
+
+
+
+/* CLASS EXERCISE ****/
+
+const books = [
+    { title: 'One', genre: 'Fiction', publish: 1981 , edition: 2004 },
+    { title: 'Two', genre: 'Non-Fiction', publish: 1992 , edition:2008 },
+    { title: 'THree', genre: 'History', publish: 1999, edition: 2007},
+    { title: 'Four', genre: 'Non-Fiction', publish:1989 , edition:2010 },
+    { title: 'Five', genre: 'Science', publish: 2009 , edition: 2014},
+    { title: 'Six', genre: 'History', publish: 1987, edition: 2010},
+    { title: 'Seven', genre: 'Science', publish:1986 , edition: 1996 },
+    { title: 'Eight', genre: '', publish: 2011 , edition: 1989},
+];
+
+const userBooks =
+
+console.log(userBooks);
