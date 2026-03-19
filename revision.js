@@ -1564,13 +1564,29 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 
 /*TO FILTER THE RECENT ITEMS */
-const posts = [
-  { title: "Post 1", date: "2024-01-01" },
-  { title: "Post 2", date: "2025-01-01" }
-];
+// const posts = [
+//   { title: "Post 1", date: "2024-01-01" },
+//   { title: "Post 2", date: "2025-01-01" }
+// ];
 
-const recent = posts.filter(post =>
-  new Date(post.date) > new Date("2024-06-01")
-);
+// const recent = posts.filter(post =>
+//   new Date(post.date) > new Date("2024-06-01")
+// );
 
-console.log(recent);
+// console.log(recent);
+
+
+
+//FILTERING USING FOR EACH LOOP
+
+const myNums = [1,2,3,4,5,6,7,8,9,10]
+
+
+const newNums = []
+myNums.forEach( (num) => {
+    if (num > 4) {
+        newNums.push(num)
+    }
+} )
+
+console.log(newNums);
