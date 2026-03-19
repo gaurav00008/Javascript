@@ -1485,32 +1485,46 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 /***EXAMPLE NO 6 ***/
 
-const numbers = [1, 2, 3, 4, 5];
+// const numbers = [1, 2, 3, 4, 5];
 
-const result = numbers
-  .filter(num => num % 2 === 0)
-  .map(num => num * 2);
+// const result = numbers
+//   .filter(num => num % 2 === 0)
+//   .map(num => num * 2);
 
-console.log(result);
-// Output: [4, 8]
+// console.log(result);
+// // Output: [4, 8]
 
 
 /*FLTER CONDINTIN ON PRICE*/
 
-const prodcuts = [
-    {name: "Laptop", price: 199999},
-    {name: "Mouse", price: 2000},
-    {name: "Phone", price: 80000}
+// const prodcuts = [
+//     {name: "Laptop", price: 199999},
+//     {name: "Mouse", price: 2000},
+//     {name: "Phone", price: 80000}
 
-];
+// ];
 
-const expensive = prodcuts.filter(item => item.price > 10000)
+// const expensive = prodcuts.filter(item => item.price > 10000)
 
-console.log(expensive);
-
-
+// console.log(expensive);
 
 
 
 
 
+
+
+/* FILTER PRIME NUMBER */
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+const isPrime = num => {
+  if (num < 2) return false;
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) return false;
+  }
+  return true;
+};
+
+const primes = numbers.filter(isPrime);
+
+console.log(primes); // [2, 3, 5, 7]
