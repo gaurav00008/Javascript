@@ -1515,16 +1515,30 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 
 /* FILTER PRIME NUMBER */
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-const isPrime = num => {
-  if (num < 2) return false;
-  for (let i = 2; i < num; i++) {
-    if (num % i === 0) return false;
-  }
-  return true;
-};
+// const isPrime = num => {
+//   if (num < 2) return false;
+//   for (let i = 2; i < num; i++) {
+//     if (num % i === 0) return false;
+//   }
+//   return true;
+// };
 
-const primes = numbers.filter(isPrime);
+// const primes = numbers.filter(isPrime);
 
-console.log(primes); // [2, 3, 5, 7]
+// console.log(primes); // [2, 3, 5, 7]
+
+
+
+
+
+/*TO FILTER UNIQUE VALUE */
+
+const values = [1, 2, 2, 3, 4, 4, 5];
+
+const unique = values.filter((item, index, arr) => {
+  return arr.indexOf(item) === index;
+});
+
+console.log(unique); // [1, 2, 3, 4, 5]
