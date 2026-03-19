@@ -1535,10 +1535,28 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 /*TO FILTER UNIQUE VALUE */
 
-const values = [1, 2, 2, 3, 4, 4, 5];
+// const values = [1, 2, 2, 3, 4, 4, 5];
 
-const unique = values.filter((item, index, arr) => {
-  return arr.indexOf(item) === index;
-});
+// const unique = values.filter((item, index, arr) => {
+//   return arr.indexOf(item) === index;
+// });
 
-console.log(unique); // [1, 2, 3, 4, 5]
+// console.log(unique); // [1, 2, 3, 4, 5]
+
+
+
+
+
+/*TO REMOVE DUPLICATES FROM OBJECTS*/
+const users = [
+  { id: 1, name: "Anish" },
+  { id: 2, name: "Ram" },
+  { id: 1, name: "Anish" }
+];
+
+const uniqueUsers = users.filter(
+  (user, index, self) =>
+    index === self.findIndex(u => u.id === user.id)
+);
+
+console.log(uniqueUsers);
