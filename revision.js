@@ -1596,7 +1596,7 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 /* CLASS EXERCISE ****/
 
 const books = [
-    { title: 'One', genre: 'Fiction', publish: 1981 , edition: 2004 },
+    { title: 'One', gerne: 'Fiction', publish: 1981 , edition: 2004 },
     { title: 'Two', genre: 'Non-Fiction', publish: 1992 , edition:2008 },
     { title: 'THree', genre: 'History', publish: 1999, edition: 2007},
     { title: 'Four', genre: 'Non-Fiction', publish:1989 , edition:2010 },
@@ -1606,6 +1606,5 @@ const books = [
     { title: 'Eight', genre: '', publish: 2011 , edition: 1989},
 ];
 
-const userBooks =
-
+const userBooks = books.filter((bk) => bk.genre === 'History');
 console.log(userBooks);
