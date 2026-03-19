@@ -1548,15 +1548,29 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 
 /*TO REMOVE DUPLICATES FROM OBJECTS*/
-const users = [
-  { id: 1, name: "Anish" },
-  { id: 2, name: "Ram" },
-  { id: 1, name: "Anish" }
+// const users = [
+//   { id: 1, name: "Anish" },
+//   { id: 2, name: "Ram" },
+//   { id: 1, name: "Anish" }
+// ];
+
+// const uniqueUsers = users.filter(
+//   (user, index, self) =>
+//     index === self.findIndex(u => u.id === user.id)
+// );
+
+// console.log(uniqueUsers);
+
+
+
+/*TO FILTER THE RECENT ITEMS */
+const posts = [
+  { title: "Post 1", date: "2024-01-01" },
+  { title: "Post 2", date: "2025-01-01" }
 ];
 
-const uniqueUsers = users.filter(
-  (user, index, self) =>
-    index === self.findIndex(u => u.id === user.id)
+const recent = posts.filter(post =>
+  new Date(post.date) > new Date("2024-06-01")
 );
 
-console.log(uniqueUsers);
+console.log(recent);
