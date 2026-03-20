@@ -1595,26 +1595,52 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 /* CLASS EXERCISE ****/
 
-// const books = [
-//     { title: 'One', gerne: 'Fiction', publish: 1981 , edition: 2004 },
-//     { title: 'Two', genre: 'Non-Fiction', publish: 1992 , edition:2008 },
-//     { title: 'THree', genre: 'History', publish: 1999, edition: 2007},
-//     { title: 'Four', genre: 'Non-Fiction', publish:1989 , edition:2010 },
-//     { title: 'Five', genre: 'Science', publish: 2009 , edition: 2014},
-//     { title: 'Six', genre: 'History', publish: 1987, edition: 2010},
-//     { title: 'Seven', genre: 'Science', publish:1986 , edition: 1996 },
-//     { title: 'Eight', genre: '', publish: 2011 , edition: 1989},
-// ];
+const books = [
+    { title: 'One', gerne: 'Fiction', publish: 1981 , edition: 2004 },
+    { title: 'Two', genre: 'Non-Fiction', publish: 1992 , edition:2008 },
+    { title: 'THree', genre: 'History', publish: 1999, edition: 2007},
+    { title: 'Four', genre: 'Non-Fiction', publish:1989 , edition:2010 },
+    { title: 'Five', genre: 'Science', publish: 2009 , edition: 2014},
+    { title: 'Six', genre: 'History', publish: 1987, edition: 2010},
+    { title: 'Seven', genre: 'Science', publish:1986 , edition: 1996 },
+    { title: 'Eight', genre: '', publish: 2011 , edition: 1989},
+];
 
-// let userBooks = books.filter((bk) => bk.genre === 'History');
-
-
-//  userBooks = books.filter((bk)=> { 
-//     return bk.publish >= 2000 && bk.gerne === 'History'
-// })
+let userBooks = books.filter((bk) => bk.genre === 'History');
 
 
-// console.log(userBooks);
+ userBooks = books.filter((bk)=> { 
+    return bk.publish >= 2000 && bk.gerne === 'History'
+})
 
 
-// console.log(publishDate);
+console.log(userBooks);
+
+
+console.log(publishDate);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***JAVASCRIPT PART 2 ***/
+
+
+
+/* DOM MANUPLATION */
