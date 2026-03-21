@@ -1638,7 +1638,20 @@ console.log(evens); // [2, 4, 6]
 
 
 
+//EXAMPLE 3
 
+//Filter numbers greater than 10
+
+const nums = [5, 12, 8, 20, 3];
+const result = [];
+
+nums.forEach((n) => {
+    if (n > 10) {
+        result.push(n);
+    }
+});
+
+console.log(result); // [12, 20]
 
 
 
