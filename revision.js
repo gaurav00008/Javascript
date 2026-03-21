@@ -1655,6 +1655,20 @@ console.log(result); // [12, 20]
 
 
 
+//Filter strings with length > 4
+
+const words = ["cat", "elephant", "dog", "tiger"];
+const longWords = [];
+
+words.forEach((word) => {
+    if (word.length > 4) {
+        longWords.push(word);
+    }
+});
+
+console.log(longWords); // ["elephant", "tiger"]
+
+
 
 
 
