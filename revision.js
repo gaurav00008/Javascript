@@ -1642,31 +1642,53 @@ console.log(evens); // [2, 4, 6]
 
 //Filter numbers greater than 10
 
-const nums = [5, 12, 8, 20, 3];
-const result = [];
+// const nums = [5, 12, 8, 20, 3];
+// const result = [];
 
-nums.forEach((n) => {
-    if (n > 10) {
-        result.push(n);
+// nums.forEach((n) => {
+//     if (n > 10) {
+//         result.push(n);
+//     }
+// });
+
+// console.log(result); // [12, 20]
+
+
+
+//Filter strings with len > 4
+
+// const words = ["cat", "elephant", "dog", "tiger"];
+// const longWords = [];
+
+// words.forEach((word) => {
+//     if (word.length > 4) {
+//         longWords.push(word);
+//     }
+// });
+
+// console.log(longWords); // ["elephant", "tiger"]
+
+
+
+
+/*Filter objects (age > 18)*/
+
+const users = [
+    { name: "A", age: 16 },
+    { name: "B", age: 22 },
+    { name: "C", age: 19 }
+];
+
+const adults = [];
+
+users.forEach((user) => {
+    if (user.age > 18) {
+        adults.push(user);
     }
 });
 
-console.log(result); // [12, 20]
+console.log(adults);
 
-
-
-//Filter strings with length > 4
-
-const words = ["cat", "elephant", "dog", "tiger"];
-const longWords = [];
-
-words.forEach((word) => {
-    if (word.length > 4) {
-        longWords.push(word);
-    }
-});
-
-console.log(longWords); // ["elephant", "tiger"]
 
 
 
