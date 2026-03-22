@@ -1673,21 +1673,21 @@ console.log(evens); // [2, 4, 6]
 
 /*Filter objects (age > 18)*/
 
-const users = [
-    { name: "A", age: 16 },
-    { name: "B", age: 22 },
-    { name: "C", age: 19 }
-];
+// const users = [
+//     { name: "A", age: 16 },
+//     { name: "B", age: 22 },
+//     { name: "C", age: 19 }
+// ];
 
-const adults = [];
+// const adults = [];
 
-users.forEach((user) => {
-    if (user.age > 18) {
-        adults.push(user);
-    }
-});
+// users.forEach((user) => {
+//     if (user.age > 18) {
+//         adults.push(user);
+//     }
+// });
 
-console.log(adults);
+// console.log(adults);
 
 
 
