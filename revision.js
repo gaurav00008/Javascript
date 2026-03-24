@@ -1702,3 +1702,17 @@ console.log(evens); // [2, 4, 6]
 
 
 /* DOM MANUPLATION */
+
+
+// ID
+document.getElementById("id");
+
+// Class
+document.getElementsByClassName("class");
+
+// Tag
+document.getElementsByTagName("p");
+
+// Query Selector (most used)
+document.querySelector(".class");     // first match
+document.querySelectorAll(".class");  // all matches
