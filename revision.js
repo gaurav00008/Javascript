@@ -1703,7 +1703,7 @@ console.log(evens); // [2, 4, 6]
 
 /* DOM MANUPLATION */
 
-
+/*
 // ID
 document.getElementById("id");
 
@@ -1717,25 +1717,23 @@ document.getElementsByTagName("p");
 document.querySelector(".class");     // first match
 document.querySelectorAll(".class");  // all matches
 
-
-
-
+*/
 
 
 
 
 /***Changing Content***/
 
-element.textContent = "New Text";   // safe
-element.innerHTML = "<b>Bold</b>";  // HTML allowed
+// element.textContent = "New Text";   // safe
+// element.innerHTML = "<b>Bold</b>";  // HTML allowed
 
 
 
 
 
 /***Changing Styles** */
-element.style.color = "red";
-element.style.backgroundColor = "black";
+// element.style.color = "red";
+// element.style.backgroundColor = "black";
 
 
 
@@ -1743,10 +1741,16 @@ element.style.backgroundColor = "black";
 
 
 /***Class Manipulation***/
-element.classList.add("className");
-element.classList.remove("className");
-element.classList.toggle("className");
-element.classList.contains("className");
+// element.classList.add("className");
+// element.classList.remove("className");
+// element.classList.toggle("className");
+// element.classList.contains("className");
 
 
-element
+
+
+/***Creating & Adding Elements***/
+// const div = document.createElement("div");
+// div.textContent = "Hello";
+
+// document.body.appendChild(div);
