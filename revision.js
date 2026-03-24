@@ -1716,3 +1716,15 @@ document.getElementsByTagName("p");
 // Query Selector (most used)
 document.querySelector(".class");     // first match
 document.querySelectorAll(".class");  // all matches
+
+
+
+
+
+
+
+
+/***Changing Content***/
+
+element.textContent = "New Text";   // safe
+element.innerHTML = "<b>Bold</b>";  // HTML allowed
