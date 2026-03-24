@@ -1736,3 +1736,14 @@ element.innerHTML = "<b>Bold</b>";  // HTML allowed
 /***Changing Styles** */
 element.style.color = "red";
 element.style.backgroundColor = "black";
+
+
+
+
+
+
+/***Class Manipulation***/
+element.classList.add("className");
+element.classList.remove("className");
+element.classList.toggle("className");
+element.classList.contains("className");
