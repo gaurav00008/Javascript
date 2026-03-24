@@ -1728,3 +1728,11 @@ document.querySelectorAll(".class");  // all matches
 
 element.textContent = "New Text";   // safe
 element.innerHTML = "<b>Bold</b>";  // HTML allowed
+
+
+
+
+
+/***Changing Styles** */
+element.style.color = "red";
+element.style.backgroundColor = "black";
