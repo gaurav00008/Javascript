@@ -1741,16 +1741,16 @@ document.querySelectorAll(".class");  // all matches
 
 
 /***Class Manipulation***/
-// element.classList.add("className");
-// element.classList.remove("className");
-// element.classList.toggle("className");
-// element.classList.contains("className");
+element.classList.add("className");
+element.classList.remove("className");
+element.classList.toggle("className");
+element.classList.contains("className");
 
 
 
 
 /***Creating & Adding Elements***/
-// const div = document.createElement("div");
-// div.textContent = "Hello";
+const div = document.createElement("div");
+div.textContent = "Hello";
 
-// document.body.appendChild(div);
+document.body.appendChild(div);
