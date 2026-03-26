@@ -1758,7 +1758,12 @@ document.querySelectorAll(".class");  // all matches
 
 
 /***Creating & Adding Elements***/
-const div = document.createElement("div");
-div.textContent = "Hello";
+// const div = document.createElement("div");
+// div.textContent = "Hello";
 
-document.body.appendChild(div);
+// document.body.appendChild(div);
+
+
+
+/*EDTING AND REMOVING ELEMENT FROM DOM*/
+
