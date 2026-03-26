@@ -8,7 +8,7 @@
 
 // // // // // // // // // // const varId=7
 
-// // // // // // // // // // accountEmail = "gaurav12@gmail.com"
+//  accountEmail = "gaurav12@gmail.com"
 // // // // // // // // // // accountPass = "22883883"
 // // // // // // // // // // accountCity = "Delhi"
 
@@ -31,12 +31,11 @@
 
 
 
-
-// // // // // // // // // // //OPERATION in JAVASCRIPT
-// // // // // // // // // // console.log(5 + 3); // Addition
-// // // // // // // // // // console.log(5 - 3); // Subtraction
-// // // // // // // // // // console.log(5 * 3); // Multiplication
-// // // // // // // // // // console.log(5 / 3); // Division
+//OPERATION in JAVASCRIPT
+// console.log(5 + 3); // Addition
+//console.log(5 - 3); // Subtraction
+// console.log(5 * 3); // Multiplication
+//  console.log(5 / 3); // Division
 // // // // // // // // // // console.log(5 % 3); // Modulus
 // // // // // // // // // // console.log(5 ** 3); // Exponentiation
 
@@ -58,7 +57,11 @@
 // // // // // // // // // // console.log(null>=0);
 
 
-// // // // // // // // // // //OBJEST IN JAVASCRIPT
+
+
+
+//OBJECT IN JAVASCRIPT
+
 // // // // // // // // // // const heroes = ["Superman", "Batman", "Spiderman"];
 // // // // // // // // // // let myObj={
 // // // // // // // // // //     name:"Gaurav",     
@@ -91,14 +94,17 @@
 // // // // // // // // // // Concatenation
 // // // // // // // // // // console.log(name + " " + city) /*Outdated technique*/
 
-// // // // // // // // // // Template Literals
-// // // // // // // // // console.log(`${name} ${city}`) /*Modern technique*/
 
 
 
-// // // // // // // // // const gameName = new String("BULBASAUR_IS_A_POKEMON")  //TO DECLARE A STRING OBJECT
-// // // // // // // // // console.log(gameName); 
-// // // // // // // // // console.log(typeof gameName); //object
+//  Template Literals
+//  console.log(`${name} ${city}`) /*Modern technique*/
+
+
+
+// const gameName = new String("BULBASAUR_IS_A_POKEMON")  //TO DECLARE A STRING OBJECT
+//  console.log(gameName); 
+//  console.log(typeof gameName); //object
 
 
 
@@ -1345,7 +1351,7 @@ if (Object.keys(emptyObj).length === 0) {
 /****** FOR EACH LOOP *********/
 
 
-const coding = ["js", "ruby", "java", "python", "cpp"]
+// const coding = ["js", "ruby", "java", "python", "cpp"]
 
 
 // coding.forEach( function (val){
@@ -1624,16 +1630,16 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 //EXAMPLE 2
 
 
-const numbers = [1, 2, 3, 4, 5, 6];
-const evens = [];
+// const numbers = [1, 2, 3, 4, 5, 6];
+// const evens = [];
 
-numbers.forEach((num) => {
-    if (num % 2 === 0) {
-        evens.push(num);
-    }
-});
+// numbers.forEach((num) => {
+//     if (num % 2 === 0) {
+//         evens.push(num);
+//     }
+// });
 
-console.log(evens); // [2, 4, 6]
+// console.log(evens); // [2, 4, 6]
 
 
 
@@ -1741,10 +1747,12 @@ document.querySelectorAll(".class");  // all matches
 
 
 /***Class Manipulation***/
-element.classList.add("className");
-element.classList.remove("className");
-element.classList.toggle("className");
-element.classList.contains("className");
+
+
+// element.classList.add("className");
+// element.classList.remove("className");
+// element.classList.toggle("className");
+// element.classList.contains("className");
 
 
 
