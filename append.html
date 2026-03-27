@@ -22,6 +22,16 @@
 addLanguage("NODE JS")  
 addLanguage("Python")
 
+/*OPTMIZATION OF THIS METHOD*/
+
+function addOptiLanguage(langName){
+    const li=  document.createElement('li')
+    li.appendChild(document.createTextNode(langName))
+    document.querySelector('.langauge').appendChild(li)
+}
+
+
+addOptiLanguage('GO LANG')
 
 </script>
 </body>
