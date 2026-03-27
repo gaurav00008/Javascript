@@ -1767,3 +1767,20 @@ document.querySelectorAll(".class");  // all matches
 
 /*EDTING AND REMOVING ELEMENT FROM DOM*/
 
+//EDIT
+// const secondLang = document.querySelector("li:nth-child(2)")
+// secondLang.innerHTML = "C#"
+// /*Though using this method we can edit the text but it is not optimized because this first selects the innerHTML of the tree structer and it takes a lot of time*/
+
+
+// /*SECOND APPROACH TO EDIT*/
+// const newli = document.createElement('li')
+// newli.textContent = "MOJO"
+// secondLang.replaceWith(newli)
+
+
+
+// /*ANOTHER METHOD TO EDIT*/ 
+// const firstLang  = document.querySelector("li:first-child")
+// firstLang.outerHTML = '<li>Typescript</li>'
+
