@@ -1784,3 +1784,11 @@ document.querySelectorAll(".class");  // all matches
 // const firstLang  = document.querySelector("li:first-child")
 // firstLang.outerHTML = '<li>Typescript</li>'
 
+
+
+
+/*1. Change Text Content*/
+
+function changeText() {
+  document.getElementById("text").textContent = "Hello World!";
+}
