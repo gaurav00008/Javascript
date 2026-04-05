@@ -1792,3 +1792,13 @@ document.querySelectorAll(".class");  // all matches
 function changeText() {
   document.getElementById("text").textContent = "Hello World!";
 }
+
+
+
+/*Add New Element*/
+function addItem() {
+  const li = document.createElement("li");
+  li.textContent = "New Item";
+
+  document.getElementById("list").appendChild(li);
+}
