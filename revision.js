@@ -1810,3 +1810,11 @@ function removeItem() {
   const item = document.getElementById("item");
   item.remove();
 }
+
+
+
+/*Toggle Class*/
+function toggleClass() {
+  const el = document.getElementById("box");
+  el.classList.toggle("active");
+}
