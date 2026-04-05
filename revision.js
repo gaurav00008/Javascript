@@ -1802,3 +1802,11 @@ function addItem() {
 
   document.getElementById("list").appendChild(li);
 }
+
+
+
+/*Remove Element*/
+function removeItem() {
+  const item = document.getElementById("item");
+  item.remove();
+}
