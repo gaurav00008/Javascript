@@ -1840,12 +1840,46 @@ document.querySelectorAll(".class");  // all matches
 
 /*EVENT LISTENER*/
 
+// document.getElementById('owl').addEventListener('click', function(e){
+//     // alert("OWL IS CLICKED")
+
+//     console.log(e);
+    
+// },false)
+
+
+
+//EVENT PROPOGATION
+
+document.getElementById('images').addEventListener('click', function(e){
+    // alert("OWL IS CLICKED")
+
+    console.log("Clicked inside the unordered list");
+    
+},false)
+
+
+
 document.getElementById('owl').addEventListener('click', function(e){
     // alert("OWL IS CLICKED")
 
-    console.log(e);
+    console.log("OWL IS CLICKED");
     
 },false)
+
+
+
+//EVENT PREVENT DEFAULT
+document.getElementById('google').addEventListener('click', function(e)
+{
+    e.preventDefault()
+    console.log("google.com")
+    
+}, false)
+
+
+
+
 
 
 //EVENTS: type, timestamp, defaultPrevented
