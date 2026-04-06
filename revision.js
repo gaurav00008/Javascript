@@ -1789,32 +1789,43 @@ document.querySelectorAll(".class");  // all matches
 
 /*1. Change Text Content*/
 
-function changeText() {
-  document.getElementById("text").textContent = "Hello World!";
-}
+// function changeText() {
+//   document.getElementById("text").textContent = "Hello World!";
+// }
 
 
 
 /*Add New Element*/
-function addItem() {
-  const li = document.createElement("li");
-  li.textContent = "New Item";
+// function addItem() {
+//   const li = document.createElement("li");
+//   li.textContent = "New Item";
 
-  document.getElementById("list").appendChild(li);
-}
+//   document.getElementById("list").appendChild(li);
+// }
 
 
 
 /*Remove Element*/
-function removeItem() {
-  const item = document.getElementById("item");
-  item.remove();
-}
+// function removeItem() {
+//   const item = document.getElementById("item");
+//   item.remove();
+// }
 
 
 
 /*Toggle Class*/
-function toggleClass() {
-  const el = document.getElementById("box");
-  el.classList.toggle("active");
-}
+// function toggleClass() {
+//   const el = document.getElementById("box");
+//   el.classList.toggle("active");
+// }
+
+
+
+
+
+
+
+
+
+
+/***EVENTS IN JAVASCRIPT ***/
