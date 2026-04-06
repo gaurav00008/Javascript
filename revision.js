@@ -1829,3 +1829,18 @@ document.querySelectorAll(".class");  // all matches
 
 
 /***EVENTS IN JAVASCRIPT ***/
+
+// document.getElementById('owl').onclick = function() {
+//     alert("Owl is clicked")
+// }
+
+
+
+
+
+//EVENT LISTENER
+
+document.getElementById('owl').addEventListener('click', function(){
+    alert("OWL IS CLICKED")
+})
+
