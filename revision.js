@@ -1838,9 +1838,18 @@ document.querySelectorAll(".class");  // all matches
 
 
 
-//EVENT LISTENER
+/*EVENT LISTENER*/
 
-document.getElementById('owl').addEventListener('click', function(){
-    alert("OWL IS CLICKED")
-})
+document.getElementById('owl').addEventListener('click', function(e){
+    // alert("OWL IS CLICKED")
+
+    console.log(e);
+    
+},false)
+
+
+//EVENTS: type, timestamp, defaultPrevented
+//target, toElement, srcElement, currentTarget,
+//clinetX, clientY, screenX, screenY
+//altkey, ctrlkey, shiftkey, keyCode
 
