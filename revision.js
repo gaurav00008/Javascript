@@ -1851,31 +1851,33 @@ document.querySelectorAll(".class");  // all matches
 
 //EVENT PROPOGATION
 
-document.getElementById('images').addEventListener('click', function(e){
-    // alert("OWL IS CLICKED")
+//THIS ALL JS WORK IS DONE ON THE FILE event.html ................
 
-    console.log("Clicked inside the unordered list");
+// document.getElementById('images').addEventListener('click', function(e){
+//     // alert("OWL IS CLICKED")
+
+//     console.log("Clicked inside the unordered list");
     
-},false)
+// },false)
 
 
 
-document.getElementById('owl').addEventListener('click', function(e){
-    // alert("OWL IS CLICKED")
+// document.getElementById('owl').addEventListener('click', function(e){
+//     // alert("OWL IS CLICKED")
 
-    console.log("OWL IS CLICKED");
+//     console.log("OWL IS CLICKED");
     
-},false)
+// },false)
 
 
 
-//EVENT PREVENT DEFAULT
-document.getElementById('google').addEventListener('click', function(e)
-{
-    e.preventDefault()
-    console.log("google.com")
+// //EVENT PREVENT DEFAULT
+// document.getElementById('google').addEventListener('click', function(e)
+// {
+//     e.preventDefault()
+//     console.log("google.com")
     
-}, false)
+// }, false)
 
 
 
@@ -1887,3 +1889,17 @@ document.getElementById('google').addEventListener('click', function(e)
 //clinetX, clientY, screenX, screenY
 //altkey, ctrlkey, shiftkey, keyCode
 
+
+
+
+
+
+
+
+// TO REMOVE A CERATING IMAGE ON A SINGLE CLICK FROM THE WINDOW
+
+document.querySelector('#images').addEventListener('click', function(e){
+    console.log(e.target.parentNode);
+    let removeIt = e.target.parentNode
+    removeIt.remove()
+},false)
