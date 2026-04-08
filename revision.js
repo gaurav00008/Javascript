@@ -1950,3 +1950,18 @@ form.addEventListener('submit', function (e) {
     e.preventDefault(); // stop page reload
     console.log('Form submitted');
 });
+
+
+
+
+
+
+
+//5. Event Bubbling Example
+document.querySelector('#parent').addEventListener('click', function () {
+    console.log('Parent clicked');
+});
+
+document.querySelector('#child').addEventListener('click', function () {
+    console.log('Child clicked');
+});
