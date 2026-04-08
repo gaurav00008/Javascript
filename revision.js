@@ -1898,16 +1898,28 @@ document.querySelectorAll(".class");  // all matches
 
 // TO REMOVE A CERATING IMAGE ON A SINGLE CLICK FROM THE WINDOW
 
-document.querySelector('#images').addEventListener('click', function(e){
-    console.log(e.target.parentNode);
-    console.log(e.target.tagName);
+// document.querySelector('#images').addEventListener('click', function(e){
+//     console.log(e.target.parentNode);
+//     console.log(e.target.tagName);
     
-    if(e.target.tagName === 'IMG') {
-        console.log(e.target.id);
-        let removeIt = e.target.parentNode
-        removeIt.remove()
-    }
+//     if(e.target.tagName === 'IMG') {
+//         console.log(e.target.id);
+//         let removeIt = e.target.parentNode
+//         removeIt.remove()
+//     }
 
 
 
-},false)  
+// },false)  
+
+
+
+//EVENT IN JS
+
+//EXAMPLE 1
+
+const button = document.querySelector('#btn');
+
+button.addEventListener('click', function () {
+    console.log('Button clicked');
+});
