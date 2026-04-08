@@ -1918,8 +1918,18 @@ document.querySelectorAll(".class");  // all matches
 
 //EXAMPLE 1
 
-const button = document.querySelector('#btn');
+// const button = document.querySelector('#btn');
 
-button.addEventListener('click', function () {
-    console.log('Button clicked');
+// button.addEventListener('click', function () {
+//     console.log('Button clicked');
+// });
+
+
+
+// 2. Mouseover Event
+
+const box = document.querySelector('.box');
+
+box.addEventListener('mouseover', function () {
+    console.log('Mouse is over the box');
 });
