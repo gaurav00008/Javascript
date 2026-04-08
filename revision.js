@@ -1933,3 +1933,20 @@ const box = document.querySelector('.box');
 box.addEventListener('mouseover', function () {
     console.log('Mouse is over the box');
 });
+
+
+
+// 3. Keydown Event
+document.addEventListener('keydown', function (e) {
+    console.log(`Key pressed: ${e.key}`);
+});
+
+
+
+//4. Submit Event (Form)
+const form = document.querySelector('#myForm');
+
+form.addEventListener('submit', function (e) {
+    e.preventDefault(); // stop page reload
+    console.log('Form submitted');
+});
