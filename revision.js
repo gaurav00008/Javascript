@@ -1984,3 +1984,7 @@ document.querySelectorAll(".class");  // all matches
 
 
 
+//SCROLL EVENT 
+window.addEventListener('scroll', ()=>{
+    console.log("Scrolling......");
+});
