@@ -1928,40 +1928,57 @@ document.querySelectorAll(".class");  // all matches
 
 // 2. Mouseover Event
 
-const box = document.querySelector('.box');
+// const box = document.querySelector('.box');
 
-box.addEventListener('mouseover', function () {
-    console.log('Mouse is over the box');
-});
+// box.addEventListener('mouseover', function () {
+//     console.log('Mouse is over the box');
+// });
 
 
 
 // 3. Keydown Event
-document.addEventListener('keydown', function (e) {
-    console.log(`Key pressed: ${e.key}`);
-});
+// document.addEventListener('keydown', function (e) {
+//     console.log(`Key pressed: ${e.key}`);
+// });
 
 
 
 //4. Submit Event (Form)
-const form = document.querySelector('#myForm');
+// const form = document.querySelector('#myForm');
 
-form.addEventListener('submit', function (e) {
-    e.preventDefault(); // stop page reload
-    console.log('Form submitted');
-});
-
-
-
-
+// form.addEventListener('submit', function (e) {
+//     e.preventDefault(); // stop page reload
+//     console.log('Form submitted');
+// });
 
 
 
 //5. Event Bubbling Example
-document.querySelector('#parent').addEventListener('click', function () {
-    console.log('Parent clicked');
-});
+// document.querySelector('#parent').addEventListener('click', function () {
+//     console.log('Parent clicked');
+// });
 
-document.querySelector('#child').addEventListener('click', function () {
-    console.log('Child clicked');
+// document.querySelector('#child').addEventListener('click', function () {
+//     console.log('Child clicked');
+// });
+
+
+
+
+//6. Stop Propagation
+// document.querySelector('#child').addEventListener('click', function (e) {
+//     e.stopPropagation();
+//     console.log('Child clicked only');
+// });
+
+
+
+
+
+
+//INPUT EVENT LIVE TYPING
+const input = document.getElementById('inputBox');
+
+input.addEventListener('input', (e) => {
+    console.log(`Typing: ${e.target.value}`);
 });
