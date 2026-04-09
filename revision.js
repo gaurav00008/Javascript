@@ -1974,11 +1974,13 @@ document.querySelectorAll(".class");  // all matches
 
 
 
-
-
 //INPUT EVENT LIVE TYPING
-const input = document.getElementById('inputBox');
+// const input = document.getElementById('inputBox');
 
-input.addEventListener('input', (e) => {
-    console.log(`Typing: ${e.target.value}`);
-});
+// input.addEventListener('input', (e) => {
+//     console.log(`Typing: ${e.target.value}`);
+// });
+
+
+
+
