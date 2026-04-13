@@ -1943,6 +1943,14 @@ document.querySelectorAll(".class");  // all matches
 
 
 
+//Keyboard Event 
+document.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+        console.log("Enter key pressed!");
+    }
+});
+
+
 //4. Submit Event (Form)
 // const form = document.querySelector('#myForm');
 
