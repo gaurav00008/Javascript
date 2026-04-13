@@ -1944,11 +1944,30 @@ document.querySelectorAll(".class");  // all matches
 
 
 //Keyboard Event 
-document.addEventListener("keydown", (e) => {
-    if (e.key === "Enter") {
-        console.log("Enter key pressed!");
-    }
-});
+// document.addEventListener("keydown", (e) => {
+//     if (e.key === "Enter") {
+//         console.log("Enter key pressed!");
+//     }
+// });
+
+
+//3. Input Live Preview
+// const input = document.querySelector("#name");
+
+// input.addEventListener("input", (e) => {
+//     console.log("Typing:", e.target.value);
+// });
+
+
+
+
+//4. ONCE EVENT- A event that runs only a single time
+const btn = document.querySelector("#btn");
+
+btn.addEventListener("click", () => {
+    console.log("Clicked only once!");
+}, { once: true });
+
 
 
 //4. Submit Event (Form)
